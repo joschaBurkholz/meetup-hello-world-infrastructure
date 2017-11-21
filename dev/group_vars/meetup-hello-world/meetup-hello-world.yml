@@ -1,0 +1,7 @@
+meetup_hello_world:
+  name: meetup-hello-world
+  image: "{{ docker.registry }}/meetup-hello-world"
+  version: latest
+  ports: "8091:8081"
+  environment:
+    SERVER_PORT: "8081"
