@@ -1,4 +1,4 @@
-- hosts: hello-world
+- hosts: meetup-hello-world
   become: true
   roles:
     - { role: unix_users, _unix: "{{ application_default }}" }
