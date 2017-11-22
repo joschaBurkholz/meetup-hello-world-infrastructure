@@ -1,4 +1,4 @@
-registry_host: "85.25.226.182"
+registry_host: "joscha-burkholz.de"
 meetup_hello_world_host: "{{ groups['meetup-hello-world'][0] }}"
 
 docker:
