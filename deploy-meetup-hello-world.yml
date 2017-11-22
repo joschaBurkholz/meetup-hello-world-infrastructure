@@ -3,4 +3,4 @@
   roles:
     - { role: unix_users, _unix: "{{ application_default }}" }
     - { role: docker_network, _docker_network: "{{ docker_network_default }}" }
-    - { role: application, _application: "{{ meetup-hello-world }}" }
+    - { role: application, _application: "{{ meetup_hello_world }}" }
